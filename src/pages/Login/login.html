@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <title></title>
+    <meta name="description" content="" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./log-in.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&display=swap"
+    />
+  </head>
+  <body>
+    <div class="log-in-div">
+      <img
+        class="img-grabbitlogo-1-icon2"
+        alt=""
+        src="public/img-grabbitlogo-11@2x.png"
+      />
+      <div class="forgot-div">Forgot Password?</div>
+      <textarea class="group-textarea3"></textarea
+      ><textarea class="group-textarea4"></textarea
+      ><button class="loginbtnactionloginfirebase-button" autofocus>
+        <div class="rectangle-div3"></div>
+        <b class="btntext1">Log in</b></button
+      ><button class="signupbtn-button" autofocus id="signUpBtnButton">
+        <div class="rectangle-div4"></div>
+        <b class="btntext2">Sign Up</b></button
+      ><b class="log-in-b">Log In</b>
+    </div>
+
+    <script>
+      var signUpBtnButton = document.getElementById("signUpBtnButton");
+      if (signUpBtnButton) {
+        signUpBtnButton.addEventListener("click", function (e) {
+          window.location.href = "./sign-up.html";
+        });
+      }
+      </script>
+  </body>
+</html>
